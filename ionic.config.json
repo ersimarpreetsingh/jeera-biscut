@@ -1,0 +1,7 @@
+{
+  "name": "scratch-biscuit",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
