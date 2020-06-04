@@ -5,19 +5,20 @@
     justify-content: center;
     min-height: calc(100vh - 80px);
     .wrap {
-        // max-width: 414px;
         width: 100%;
     }
     .restaurant {
+        align-items: center;
+        display: flex;
+        justify-content: center;
         padding: 10px;
-        text-align: center;
         img {
             height: 120px;
             width: auto;
         }
     }
     .shop-hgt {
-        height: calc(100% - 144px);
+        height: calc(100% - 140px);
         background: #fff;
         .box-item {
             border-top: 2px solid #FAE45A;

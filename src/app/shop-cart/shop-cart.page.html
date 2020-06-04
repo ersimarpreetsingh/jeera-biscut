@@ -1,74 +1,73 @@
 <ion-content>
-  <div>
-    <!--code for header image-->
-  </div>
-  <div>
-    <ion-button>$260</ion-button>
-    <h1>The Biscuits</h1>
-  </div>
-  <div>
-    <ion-grid>
-      <ion-row>
-        <ion-col size="12">
-          Butter Biscuit
-        </ion-col>
-      </ion-row>
-    </ion-grid>
-    <ion-grid>
-      <ion-row>
-        <ion-col size="8">
-          <div>Butter Biscuit</div>
-          <ion-button>UPGRADE</ion-button>
-        </ion-col>
-        <ion-col size="4">
-          <div>
-            <ion-button>
-              <ion-icon name="add-outline"></ion-icon>
-            </ion-button>
-            <ion-button>
-              <ion-icon name="remove-outline"></ion-icon>
-            </ion-button>
-          </div>
-          <div>$2.60</div>
-        </ion-col>
-      </ion-row>
-      <ion-row>
-        <ion-col size="8">
-          <div>Butter Biscuit</div>
-          <ion-button>UPGRADE</ion-button>
-        </ion-col>
-        <ion-col size="4">
-          <div>
-            <ion-button>
-              <ion-icon name="add-outline"></ion-icon>
-            </ion-button>
-            <ion-button>
-              <ion-icon name="remove-outline"></ion-icon>
-            </ion-button>
-          </div>
-          <div>$2.60</div>
-        </ion-col>
-      </ion-row>
-    </ion-grid>
-  </div>
+    <div class="wrapper">
+        <div class="wrap">
+            <div class="restaurant">
+                <img src="assets/images/scratch-biscuit-logo.svg" alt="">
+            </div>
+            <div class="shop-hgt">
+                <div class="upper">
+                    <div class="box-item box-flex">
+                        <button><sup>$</sup>2<sup>60</sup></button>
+                        <h2>The Biscuits</h2>
+                    </div>
+                    <div class="selected">
+                        <h3>Butter Biscuit</h3>
+                    </div>
+                    <div class="selected-biscuit">
+                        <div class="col">
+                            <div class="name">Butter Biscuit</div>
+                            <div class="edit">
+                                <ul>
+                                    <li><button>+</button></li>
+                                    <li><button>-</button></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col upgrade">
+                            <div class="name">UPGRADE</div>
+                            <div class="price">$2.60</div>
+                        </div>
+                    </div>
+                    <div class="selected-biscuit">
+                        <div class="col">
+                            <div class="name">Butter Biscuit</div>
+                            <div class="edit">
+                                <ul>
+                                    <li><button>+</button></li>
+                                    <li><button>-</button></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col upgrade">
+                            <div class="name">UPGRADE</div>
+                            <div class="price">$2.60</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <div class="total-bar">
+                        <div class="order-total text">
+                            Order Total</div>
+                        <div class="total-amount text">
+                            $5.20
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </ion-content>
 <ion-footer>
-  <ion-grid>
-    <ion-row>
-      <ion-col size="8">
-        Order Total
-      </ion-col>
-      <ion-col size="4">
-        $5.20
-      </ion-col>
-    </ion-row>
-    <ion-row>
-      <ion-col size="6">
-        Menu
-      </ion-col>
-      <ion-col size="6">
-        Pay
-      </ion-col>
-    </ion-row>
-  </ion-grid>
+    <ul class="link">
+        <li>
+            <a href="#">
+                <img class="back-icon" src="assets/images/back-finger.png" alt=""> Back
+            </a>
+        </li>
+        <li>
+            <a href="#">
+          Pay <img class="next-icon" src="assets/images/next-finger.png" alt="">
+          </a>
+        </li>
+    </ul>
 </ion-footer>
