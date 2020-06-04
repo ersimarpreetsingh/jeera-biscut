@@ -9,8 +9,10 @@
         width: 100%;
     }
     .restaurant {
+        align-items: center;
+        display: flex;
+        justify-content: center;
         padding: 10px;
-        text-align: center;
         img {
             height: 120px;
             width: auto;
@@ -74,6 +76,9 @@
                             font-size: 24px;
                             max-width: 414px;
                         }
+                    }
+                    &:first-child {
+                        margin-top: 0;
                     }
                 }
             }
