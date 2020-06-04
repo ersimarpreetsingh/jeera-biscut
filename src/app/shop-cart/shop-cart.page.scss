@@ -78,40 +78,40 @@
         .selected-biscuit {
             margin: 20px auto 0;
             max-width: 414px;
+            .name {
+                color: #000;
+                font: 500 24px Poppins;
+            }
+            .edit {
+                ul {
+                    margin: 0;
+                    padding: 0;
+                    list-style: none;
+                    display: flex;
+                    li {
+                        margin: 0 0 0 10px;
+                        button {
+                            width: 36px;
+                            height: 36px;
+                            border-radius: 5px;
+                            background: #000;
+                            color: #fff;
+                            font: 500 24px/1 Poppins;
+                            padding: 0;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                        }
+                        &:first-child {
+                            margin-left: 0;
+                        }
+                    }
+                }
+            }
             .col {
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
-                .name {
-                    color: #000;
-                    font: 500 24px Poppins;
-                }
-                .edit {
-                    ul {
-                        margin: 0;
-                        padding: 0;
-                        list-style: none;
-                        display: flex;
-                        li {
-                            margin: 0 0 0 10px;
-                            button {
-                                width: 36px;
-                                height: 36px;
-                                border-radius: 5px;
-                                background: #000;
-                                color: #fff;
-                                font: 500 24px/1 Poppins;
-                                padding: 0;
-                                display: flex;
-                                align-items: center;
-                                justify-content: center;
-                            }
-                            &:first-child {
-                                margin-left: 0;
-                            }
-                        }
-                    }
-                }
                 &.upgrade {
                     margin-top: 5px;
                     .name {
@@ -125,13 +125,15 @@
             }
         }
         .total-bar {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
             margin: 0 auto;
             max-width: 414px;
             flex: 0 0 414px;
             padding: 30px 0;
+            .col {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
             .text {
                 color: #000;
                 font: 500 24px Poppins;
