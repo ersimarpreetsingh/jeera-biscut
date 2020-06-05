@@ -9,6 +9,7 @@
     }
     .restaurant {
         align-items: center;
+        border-bottom: 2px solid #fae45a;
         display: flex;
         justify-content: center;
         padding: 10px;
@@ -21,7 +22,7 @@
         background: #fff;
         display: flex;
         flex-direction: column;
-        height: calc(100% - 140px);
+        height: calc(100% - 142px);
         justify-content: space-between;
         .upper,
         .bottom {

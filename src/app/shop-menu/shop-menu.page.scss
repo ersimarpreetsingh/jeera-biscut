@@ -3,12 +3,16 @@
     background-size: cover;
     display: flex;
     justify-content: center;
-    min-height: calc(100vh - 80px);
+    min-height: calc(100vh - 60px);
+    @media (min-width: 414px) {
+        min-height: calc(100vh - 80px);
+    }
     .wrap {
         width: 100%;
     }
     .restaurant {
         align-items: center;
+        border-bottom: 2px solid #fae45a;
         display: flex;
         justify-content: center;
         padding: 10px;
@@ -18,7 +22,7 @@
         }
     }
     .shop-hgt {
-        height: calc(100% - 140px);
+        height: calc(100% - 142px);
         background: #fff;
         .box-item {
             border-top: 2px solid #FAE45A;
@@ -50,15 +54,16 @@
 }
 
 ion-footer {
+    align-items: center;
     color: #000000;
     background: #FBE97B;
-    text-align: center;
-    font: 500 20px Poppins;
-    min-height: 80px;
     display: flex;
-    align-items: center;
+    font: 500 20px Poppins;
+    height: 60px;
     justify-content: center;
+    text-align: center;
     @media (min-width: 414px) {
         font-size: 24px;
+        height: 80px;
     }
 }
