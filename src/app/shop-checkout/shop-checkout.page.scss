@@ -1,0 +1,139 @@
+.wrapper {
+    background-image: url(/assets/images/bg.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    min-height: calc(100vh - 80px);
+    .wrap {
+        width: 100%;
+    }
+    .restaurant {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        img {
+            height: 120px;
+            width: auto;
+        }
+    }
+    .shop-hgt {
+        background: #fff;
+        display: flex;
+        flex-direction: column;
+        height: calc(100% - 140px);
+        justify-content: space-between;
+        h2 {
+            color: #000000;
+            font: 500 24px Poppins;
+            text-align: center;
+            @media (min-width: 414px) {
+                font-size: 28px;
+            }
+        }
+        .upper,
+        .bottom {
+            padding: 0 20px;
+        }
+        .form {
+            margin: 20px auto 0;
+            max-width: 414px;
+            input {
+                border-radius: 4px;
+                border: 2px solid #979797;
+                color: #000;
+                font: 16px Poppins;
+                height: 36px;
+                margin: 0 0 10px 0;
+                padding: 0 10px;
+                width: 100%;
+            }
+        }
+        .total-bar {
+            margin: 0 auto;
+            max-width: 414px;
+            flex: 0 0 414px;
+            padding: 20px 0;
+            .col {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+            .text {
+                color: #000;
+                font: 500 20px Poppins;
+                @media (min-width: 414px) {
+                    font-size: 24px;
+                }
+            }
+        }
+    }
+}
+
+ion-footer {
+    color: #000000;
+    background: #FBE97B;
+    text-align: center;
+    font: 500 20px Poppins;
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @media (min-width: 414px) {
+        font-size: 24px;
+    }
+    .back-icon {
+        width: 45px;
+        margin-right: 10px;
+    }
+    .next-icon {
+        width: 45px;
+        margin-left: 10px;
+    }
+    .link {
+        display: flex;
+        flex: 0 0 100%;
+        height: 100%;
+        justify-content: center;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        @media (min-width: 414px) {
+            flex: 0 0 414px;
+            max-width: 414px;
+        }
+        li {
+            align-items: center;
+            display: flex;
+            flex: 0 0 50%;
+            justify-content: center;
+            position: relative;
+            width: 50%;
+            a {
+                align-items: center;
+                color: #000000;
+                display: flex;
+                font: 500 20px Poppins;
+                text-decoration: none;
+                white-space: nowrap;
+                @media (min-width: 414px) {
+                    font-size: 24px;
+                }
+            }
+            &:before {
+                background: #000;
+                content: "";
+                height: 100%;
+                left: -1px;
+                position: absolute;
+                top: 0;
+                width: 2px;
+            }
+            &:first-child {
+                &:before {
+                    display: none;
+                }
+            }
+        }
+    }
+}
