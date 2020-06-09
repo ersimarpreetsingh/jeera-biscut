@@ -6,13 +6,7 @@
             </div>
             <div class="shop-hgt">
                 <div class="upper">
-                    <div class="box-item box-flex">
-                        <button><sup>$</sup>2<sup>60</sup></button>
-                        <h2>The Biscuits</h2>
-                    </div>
-                    <div class="selected">
-                        <h3>Butter Biscuit</h3>
-                    </div>
+                    <h2>Your Order Summary</h2>
                     <div class="selected-biscuit">
                         <div class="col">
                             <div class="name">Butter Biscuit</div>
@@ -39,19 +33,28 @@
                             </div>
                         </div>
                         <div class="col upgrade">
-                            <div class="name">UPGRADE</div>
-                            <div class="price">$2.60</div>
+                            <div class="name">UPGRADE!</div>
+                            <div class="price">$6.10</div>
                         </div>
                     </div>
                 </div>
                 <div class="bottom">
                     <div class="total-bar">
                         <div class="col">
-                            <div class="order-total text">
-                                Order Total</div>
-                            <div class="total-amount text">
-                                $5.20
-                            </div>
+                            <div class="order-total text">Subtotal</div>
+                            <div class="total-amount text">$8.70</div>
+                        </div>
+                        <div class="col">
+                            <div class="order-total text">Tax</div>
+                            <div class="total-amount text">$8.70</div>
+                        </div>
+                        <div class="col">
+                            <div class="order-total text">Delivery Fee</div>
+                            <div class="total-amount text">$8.70</div>
+                        </div>
+                        <div class="col">
+                            <div class="order-total text">Order Total</div>
+                            <div class="total-amount text">$12.16</div>
                         </div>
                     </div>
                 </div>
@@ -64,7 +67,7 @@
         <li (click)="back()">
             <a><img class="back-icon" src="assets/images/back-finger.png" alt=""> Back</a>
         </li>
-        <li (click)="confirmOrder()" >
+        <li (click)="checkout()">
             <a>Pay <img class="next-icon" src="assets/images/next-finger.png" alt=""></a>
         </li>
     </ul>

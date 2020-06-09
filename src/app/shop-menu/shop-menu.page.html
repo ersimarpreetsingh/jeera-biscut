@@ -1,40 +1,44 @@
 <ion-content>
-  <div>
-    <!--code for header image-->
-  </div>
-  <div>
-    <ion-item>
-      <h1>
-        THE BISCUITS
-      </h1>
-      <div>
-        <ion-button>$2<sup>60</sup></ion-button>
-        <ion-button>$3<sup>60</sup></ion-button>
-        <ion-button>$4<sup>60</sup></ion-button>
-      </div>
-    </ion-item>
-    <ion-item>
-      <h1>
-        Snacks and More
-      </h1>
-      <div>
-        <ion-button>SIDES</ion-button>
-        <ion-button>SWEET STUFF</ion-button>
-        <ion-button>PLATTERS</ion-button>
-      </div>
-    </ion-item>
-    <ion-item>
-      <h1>
-        LUNCH MENU
-      </h1>
-      <div>
-        <ion-button>SANDIES</ion-button>
-        <ion-button>PO' BOYS</ion-button>
-        <ion-button>SIDES</ion-button>
-      </div>
-    </ion-item>
-  </div>
+    <div class="wrapper">
+        <div class="wrap">
+            <div class="restaurant">
+                <img src="assets/images/scratch-biscuit-logo.svg" alt="">
+            </div>
+            <div class="shop-hgt">
+                <div class="box-item">
+                    <h2>
+                        THE BISCUITS
+                    </h2>
+                    <div class="cta-row">
+                        <button (click)="openSubMenu()"><sup>$</sup>2<sup>60</sup></button>
+                        <button><sup>$</sup>3<sup>60</sup></button>
+                        <button><sup>$</sup>4<sup>60</sup></button>
+                    </div>
+                </div>
+                <div class="box-item">
+                    <h2>
+                        Snacks and More
+                    </h2>
+                    <div class="cta-row">
+                        <button>SIDES</button>
+                        <button>SWEET STUFF</button>
+                        <button>PLATTERS</button>
+                    </div>
+                </div>
+                <div class="box-item">
+                    <h2>
+                        LUNCH MENU
+                    </h2>
+                    <div class="cta-row">
+                        <button>SANDIES</button>
+                        <button>PO' BOYS</button>
+                        <button>SIDES</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </ion-content>
 <ion-footer>
-    Current Delivery Time: 45min 
+    Current Delivery Time: 45min
 </ion-footer>

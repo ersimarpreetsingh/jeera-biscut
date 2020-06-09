@@ -27,68 +27,51 @@
         flex-direction: column;
         height: calc(100% - 142px);
         justify-content: space-between;
-        .box-item {
-            h2 {
-                text-align: center;
-                color: #000;
-                font: 38px/1 'Bungee Inline', cursive;
-                margin: 25px 0;
-            }
-            button {
-                margin: 0 5px;
-                background: #000;
-                color: #fff;
-                padding: 15px 10px 10px;
-                font: 18px/1 'Bungee', cursive;
-                border-radius: 5px;
-                @media (min-width: 414px) {
-                    margin: 0 10px;
-                    font-size: 24px;
-                }
-            }
-            &.box-flex {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-                button {
-                    margin: 0 10px 0 0;
-                }
-            }
-        }
-        .shop-links {
-            padding: 0 0 20px;
-            ul {
-                list-style: none;
-                margin: 0;
-                padding: 0;
-                li {
-                    margin: 20px 0 0 0;
-                    text-align: center;
-                    a {
-                        background: #FAE45A;
-                        border-radius: 4px;
-                        color: #000;
-                        display: inline-block;
-                        font: 500 20px/1 Poppins;
-                        padding: 20px 0;
-                        text-decoration: none;
-                        text-align: center;
-                        vertical-align: top;
-                        width: 100%;
-                        @media (min-width: 414px) {
-                            font-size: 24px;
-                            max-width: 414px;
-                        }
-                    }
-                    &:first-child {
-                        margin-top: 0;
-                    }
-                }
+        h2 {
+            color: #000000;
+            font: 500 24px Poppins;
+            text-align: center;
+            @media (min-width: 414px) {
+                font-size: 28px;
             }
         }
         .upper,
         .bottom {
             padding: 0 20px;
+        }
+        .order-biscuit {
+            margin: 20px auto 0;
+            max-width: 414px;
+            .col {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .name,
+                .number {
+                    color: #000;
+                    font: 500 24px Poppins;
+                }
+            }
+        }
+        .order-detail {
+            margin: 20px auto 0;
+            max-width: 414px;
+            h3 {
+                color: #000000;
+                font: 500 20px Poppins;
+                margin: 0;
+                @media (min-width: 414px) {
+                    font-size: 24px;
+                }
+            }
+            p {
+                color: #000000;
+                font: 16px Poppins;
+                margin: 0;
+                @media (min-width: 414px) {
+                    font-size: 20px;
+                }
+            }
         }
     }
 }
