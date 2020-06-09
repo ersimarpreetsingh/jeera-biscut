@@ -12,10 +12,10 @@
                     </div>
                     <div class="shop-links">
                         <ul>
-                            <li><a href="#">Butter Biscuit</a></li>
-                            <li><a href="#">Sausage Biscuit</a></li>
-                            <li><a href="#">Egg and Cheese Biscuit</a></li>
-                            <li><a href="#">Fried Apple Biscuit</a></li>
+                            <li (click)="openCart()"><a>Butter Biscuit</a></li>
+                            <li><a>Sausage Biscuit</a></li>
+                            <li><a>Egg and Cheese Biscuit</a></li>
+                            <li><a>Fried Apple Biscuit</a></li>
                         </ul>
                     </div>
                 </div>
@@ -25,8 +25,8 @@
 </ion-content>
 <ion-footer>
     <ul class="link">
-        <li>
-            <a href="#">
+        <li (click)="back()">
+            <a>
                 <img class="back-icon" src="assets/images/back-finger.png" alt=""> Back to Menu
             </a>
         </li>

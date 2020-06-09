@@ -64,11 +64,11 @@
 </ion-content>
 <ion-footer>
     <ul class="link">
-        <li>
-            <a href="#"><img class="back-icon" src="assets/images/back-finger.png" alt=""> Back</a>
+        <li (click)="back()">
+            <a><img class="back-icon" src="assets/images/back-finger.png" alt=""> Back</a>
         </li>
-        <li>
-            <a href="#">Pay <img class="next-icon" src="assets/images/next-finger.png" alt=""></a>
+        <li (click)="checkout()">
+            <a>Pay <img class="next-icon" src="assets/images/next-finger.png" alt=""></a>
         </li>
     </ul>
 </ion-footer>
